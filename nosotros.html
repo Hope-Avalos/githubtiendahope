@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre Entrega</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Germania+One&family=Metamorphous&family=Staatliches&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/football-jersey.png">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <h1>Talento Store</h1>
+        </a>
+    </header>
+
+    <!--<nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+    </nav>-->
+
+    <!-- Navegacion de Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <span class="navbar-brand"
+                style="font-size: 2.5rem; color: var(--secundario); font-family: var(--fuentePrincipal);">
+                <i class="fas fa-trophy"></i> Entrega Final
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: var(--blanco);"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-store"></i> Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nosotros.html"><i class="fas fa-users"></i> Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i> Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Nosotros</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odit molestias maxime expedita
+                    libero iure nobis, voluptas culpa vel labore est. Excepturi alias delectus saepe, nostrum
+                    praesentium in modi atque.
+                    Totam optio doloremque minus fugiat! Voluptatibus voluptatem ea mollitia. Optio quibusdam at eius
+                    itaque saepe non ex sapiente pariatur, quo distinctio reiciendis corrupti vero sed! Molestiae
+                    distinctio minima esse. Eius.</p>
+                <p>Consectetur adipisicing elit. Nulla quasi magni provident rem, non dolor
+                    quaerat quis dolorum iste illo numquam repudiandae hic, vitae quisquam recusandae architecto quia
+                    doloribus inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque officia fugiat
+                    ullam veritatis dolore. Sit temporibus aut eum, inventore at optio assumenda, rem tempora
+                    est ipsam eius eligendi! </p>
+            </div>
+            <img class="nosotros__imagen" src="img/grafico1.jpg" alt="imagen nosotros">
+
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Porqué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque__titulo">El Mejor Precio</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque repellat corrupti dolores molestias
+                    numquam illum maxime porro eius eligendi quo reprehenderit possimus ipsum recusandae iure esse
+                    voluptas, a molestiae harum.</p>
+            </div><!--.bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Envio Gratis</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque repellat corrupti dolores molestias
+                    numquam illum maxime porro eius eligendi quo reprehenderit possimus ipsum recusandae iure esse
+                    voluptas, a molestiae harum.</p>
+            </div><!--.bloque-->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque__titulo">La Mejor Calidad</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque repellat corrupti dolores molestias
+                    numquam illum maxime porro eius eligendi quo reprehenderit possimus ipsum recusandae iure esse
+                    voluptas, a molestiae harum.</p>
+            </div><!--.bloque-->
+        </div><!--.bloques-->
+    </section>
+
+    <section class="ubicacion">
+        <h2 class="ubicacion__titulo">Dónde encontrarnos</h2>
+        <div class="ubicacion__contenido">
+            <p class="ubicacion__direccion">
+                📍 Terminal de Ómnibus Moreno, Buenos Aires, Argentina
+            </p>
+            <iframe class="ubicacion__mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2320.853531923511!2d-58.78960572431019!3d-34.650092663107124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95e35b8b5a4b%3A0xedb6631ec2208f7b!2sTerminal%20De%20%C3%93mnibus%20Moreno!5e0!3m2!1ses-419!2sar!4v1731993491607!5m2!1ses-419!2sar"
+                allowfullscreen loading="lazy"></iframe>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p class="footer__texto">Entrega Final, Calegari - Todos los derechos Reservados 2024</p>
+    </footer>
+
+    <script src="js/nosotros.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
